@@ -17,14 +17,12 @@ public class Plate {
         }
     }
 
-    public void info()
-    {
-        System.out.println("В миске осталось "+this.food +" едениц еды");
+    public void info() {
+        System.out.println("В миске осталось " + this.food + " едениц еды");
         System.out.println();
     }
 
-
-    public void addFood(int food){
+    public void addFood(int food) {
         this.food += food;
     }
 

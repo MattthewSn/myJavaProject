@@ -2,9 +2,9 @@ package Lesson_4;
 
 public class HomeWork_4 {
     public static void main(String[] args) {
-        Cat cat1 = new Cat("Bars",0);
-        Cat cat2 = new Cat("Mars",0);
-        Dog dog1 = new Dog("Boss");
+        Cat cat1 = new Cat("Барс", 0);
+        Cat cat2 = new Cat("Марс", 0);
+        Dog dog1 = new Dog("Ларс");
 
         Plate plate = new Plate(5);
 
@@ -19,11 +19,13 @@ public class HomeWork_4 {
             catsArr[i].getFulness();
             plate.info();
         }
-
-
         cat1.run(200);
         cat1.run(201);
         cat1.swim(1);
+        System.out.println();
+        cat2.run(200);
+        cat2.run(201);
+        cat2.swim(1);
         System.out.println();
         dog1.run(200);
         dog1.swim(1);
